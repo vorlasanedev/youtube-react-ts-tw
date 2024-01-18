@@ -33,4 +33,13 @@ module.exports = {
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-```# youtube-react-ts-tw
+```
+3. install lucide-react (icon)
+https://lucide.dev/guide/packages/lucide-react
+```
+npm i lucide-react
+```
+4. install classvariance and tailwind-merge
+```
+npm i class-variance-authority tailwind-merge
+```
