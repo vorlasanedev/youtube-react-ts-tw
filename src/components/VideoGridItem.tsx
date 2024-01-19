@@ -38,7 +38,7 @@ export function VideoGridItem({
   useEffect(() => {
     if (videoRef.current == null) return;
     if (isVideoPlaying) {
-      videoRef.current.currentTime = 0; // Use '=' instead of '()'
+      videoRef.current.currentTime = 0; // Corrected from currentTime() to currentTime
       videoRef.current.play();
     } else {
       videoRef.current.pause();
