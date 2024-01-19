@@ -1,5 +1,6 @@
 # React + TypeScript + Vite
 ## installation
+learning url: https://www.youtube.com/watch?v=ymGB1lqP1CM
 1. create project
 ```
 npm create vite@latest
